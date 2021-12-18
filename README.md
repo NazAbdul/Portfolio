@@ -9,6 +9,12 @@ Because I do not have enough web applications to showcase on my web page, I have
 
 Here are the screenshots of the web application live:
 
-links:
+![image](assets/ScreenshotHomePage.png)
+![image](assets/ScreenshotAbout.png)
+![image](assets/ScreenshotProjectsPage.png)
 
+Here are the links to my git hub and webpage:
 
+https://github.com/NazAbdul/Portfolio
+
+file:///Users/admn/Desktop/bootcamp/Portfolio/index.html
