@@ -160,6 +160,26 @@ h4 {
 
 }
 
+.box {
+    background-color:transparent;
+    text-align: center;
+    max-width: calc(33.33% - 20px);
+    border: 1px lightgray solid;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    position: relative;
+    padding: 25px;
+    margin-left: 35%;
+    
+    
+
+}
+.box p4 {
+    font-size: 20px;
+    color: white;
+    margin: 0px;
+    font-weight: 600;
+}
 .navbar .flex {
     justify-content: space-between;
 }
