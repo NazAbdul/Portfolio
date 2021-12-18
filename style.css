@@ -15,9 +15,9 @@ body {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.2),rgba(0,0,0,1)), url(./assets/cityview.jpeg);
     background-size: cover;
     background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
 
 }
 
@@ -41,7 +41,7 @@ body {
     font-family: monospace;
     text-decoration: none;
     text-align: center;
-    color: rgb(134, 92, 92);
+    color: rgb(177, 121, 121);
     padding: 45px;
     margin: 0px 5px;
     
@@ -97,7 +97,7 @@ body {
 h1 {
     
     font-size: 70px;
-    color: rgb(66, 65, 65);
+    color: rgb(177, 121, 121);
     width: 1000px;
 }
 
