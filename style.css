@@ -1,0 +1,225 @@
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: border-box;
+    
+
+}
+
+
+body {
+
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2),rgba(0,0,0,1)), url(./assets/cityview.jpeg);
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: auto;
+
+}
+
+
+.nav{
+    float: right;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 0px ;
+    width: 100%;
+    color: rgb(66, 65, 65);
+    list-style: none;
+    text-decoration: none;
+    font-size: 19px;
+    
+
+}
+.navbar a {
+    
+    font-family: monospace;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(134, 92, 92);
+    padding: 45px;
+    margin: 0px 5px;
+    
+
+
+}
+
+.navbar a:hover {
+    background-color: lightgray;
+    border-bottom: 2px lightcyan solid;
+    color: darkgray
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    /* position: absolute; */
+    
+
+    
+    
+}
+
+.navbar ul {
+    display: flex;
+    height: 10px;
+    flex-direction: row;
+    float: right;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 0px 15px;
+    text-transform: uppercase;
+    font-size: 20px; 
+    font-family: monospace;
+    list-style: none;
+}
+
+
+.home {
+    width: 100%;
+    padding: 30px;
+    font-family: monospace;
+    /* margin-top: 100px; */
+    /* margin-left: 100px; */
+    text-align: center;
+    text-align-last: center;
+    justify-content: center;
+
+
+}
+h1 {
+    
+    font-size: 70px;
+    color: rgb(66, 65, 65);
+    width: 1000px;
+}
+
+p1 {
+
+    font-size: 30px;
+    color: lightgray;
+    width: 1000px;
+
+
+}
+h2 {
+    display: flex;
+    margin-top: 200px;
+    font-size: 60px;
+    color: rgb(177, 121, 121);
+    text-align: center;
+    justify-content: center;
+}
+
+p2 {
+    display: flex;
+    font-size: 25px;
+    color: lightgray;
+    width: 1000px;
+    margin: 100px;
+    text-align: center;
+    justify-content: center;
+    text-align-last: center;
+    display: flex;
+}
+
+h3 {
+    display: flex;
+    margin-top: 200px;
+    font-size: 60px;
+    color: rgb(177, 121, 121);
+    text-align: center;
+    justify-content: center;
+
+}
+p3 {
+    font-size: 25px;
+    color: lightgray;
+    width: 1000px;
+    margin: 100px;
+    text-align: center;
+    justify-content: center;
+    text-align-last: center;
+    display: flex;
+
+}
+h4 {
+    display: flex;
+    margin-top: 200px;
+    font-size: 60px;
+    color: rgb(155, 111, 111);
+    text-align: center;
+    justify-content: center;
+
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+
+img {
+    width: 320px;
+    align-items: right;
+    justify-content: right;
+    margin: 50px;
+    margin-left: 500px;
+    height: 400px;
+}
+
+.animation-area{
+    width: 100%;
+    height: 100vh;
+    color: darkgray;
+    
+    
+
+}
+
+
+
+
+.button  {
+    
+    /* display: inline-flex; */
+    list-style: none;
+    text-decoration: none;
+    width: 40%;
+    padding: 13px 26px;
+    border: 1.5px solid lightgray;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: darkgray;
+    transition: all 0.5s ease-out;
+
+    
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    justify-content: center;
+    padding: 150px;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+
+
+}
+.contact-form {
+    color: lightgray;
+    max-width: 100%;
+    padding: 50px;
+    border: 1.5px solid grey;
+    border-radius: 5px;
+}
